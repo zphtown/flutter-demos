@@ -1,5 +1,5 @@
-name: zph_travel
-description: zph_travel
+name: my_flutter_first_project
+description: A new Flutter application.
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -19,18 +19,20 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
-  flutter_swiper: ^1.1.6
+   # 新添加的依赖
+  english_words: ^3.1.5
+  url_launcher: ^5.2.5
+  image_picker: ^0.6.1+11
   http: ^0.12.0+2
   shared_preferences: ^0.5.4+5
+  flutter_swiper: ^1.1.6
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -45,12 +47,13 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - imgs/img1.jpg
-    - imgs/img2.jpg
-    - imgs/img3.jpg
-    - imgs/img4.jpg
-    - imgs/img5.jpg
-    - imgs/img6.jpg
+    - images/img1.jpg
+    - images/img2.jpg
+    - images/img3.jpg
+    - images/img4.jpg
+    - images/img5.jpg
+    - images/img6.jpg
+#    - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

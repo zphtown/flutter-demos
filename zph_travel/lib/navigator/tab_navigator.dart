@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     Widget build(BuildContext context) {
         return MaterialApp(
             title: _title,
-            home: MyStatefulWidget(),
+            home: MyStatefulWidget()
         );
     }
 }
@@ -40,9 +40,9 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
     @override
     Widget build(BuildContext context) {
         return Scaffold(
-            appBar: AppBar(
-                title: const Text('BottomNavigationBar Sample'),
-            ),
+//            appBar: AppBar(
+//                title: const Text('BottomNavigationBar Sample'),
+//            ),
             body: PageView(
                 controller: _container,
                 onPageChanged: (index) {
